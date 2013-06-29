@@ -1,0 +1,51 @@
+/* box defaults */
+.mess_box {
+	visibility: hidden;
+	position: fixed;
+	z-index: 99999;
+	left: 0px;
+	right: 0px;
+	zoom: 1;
+	filter: alpha(opacity = 85);
+	opacity: 0.85;
+}
+
+/* box positions */
+.mess_top {
+	top: 0px;
+}
+
+.mess_bottom {
+	bottom: 0px;
+}
+
+/* item defaults */
+.mess_item {
+	cursor: pointer;
+	padding: 5px 15px;
+	border-top: 1px solid #404040;
+	font-size: 14px;
+	font-family: Arial;
+	text-align: right;
+}
+
+/* item themes */
+.mess_dark {
+	background: #101010;
+	color: orange;
+}
+
+.mess_darkwhite {
+	background: #101010;
+	color: #fefefe;
+}
+
+.mess_gray {
+	background: #c2c2c2;
+	color: #101010;
+}
+
+.mess_white {
+	background: #fefefe;
+	color: #303030;
+}
