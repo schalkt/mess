@@ -1,3 +1,15 @@
+/*
+ * Mess the tiny Javascript message system (jQuery based)
+ * http://schalk.hu
+ *
+ * Copyright (c) 2013 Tamas Schalk
+ * Uses the same license as jQuery, see:
+ * http://docs.jquery.com/License
+ *
+ * @version 1.0
+ *
+ */
+
 (function(fn) {
 
     window[fn] = function(msg, timeout, theme, speed, num) {
@@ -76,7 +88,7 @@
         obj.mess_count = num;
 
         // close item
-        obj.close = function() {
+        obj.mess_close = function() {
             $(this).stop().slideUp(speed, function() {
                 $(this).remove();
             });
