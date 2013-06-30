@@ -5,6 +5,8 @@ Tiny Javascript Message System (jQuery based)
 
 Usage:
 
+```javascript
+
 mess('Hello, world!');
 
 // config
@@ -29,3 +31,4 @@ setTimeout(function() {
     
 }, 5000);	
 	
+```
